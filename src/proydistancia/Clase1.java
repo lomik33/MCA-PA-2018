@@ -21,7 +21,6 @@ public class Clase1 {
         // TODO code application logic here
    //     System.out.println(calcularDistancia(6,4,2,1));
    // se pidio que en 100 pasos se generaran numeros entre -5 y 5
-   
   }
     
     /**
@@ -60,48 +59,7 @@ public class Clase1 {
             Clase1.calcularIntervalo(i));
         }
     }
-    
-    
-    /***
-     * a partir de un parametro se calcula raiz cuadrada
-     * con el método de biseccion
-     * f(x)=n-(x^2)=0
-     * n=a+b/2
-     * @param x
-     * @return 
-     */
-    public static double calcularRaizCuadradaBiseccion(double x){
-        x=3;
-        double centinela=0d;
-        double a=0;
-        double b=x;
-        double c=prom(a,b);
-        double tol=.00001D;
-        
-        
-        
-        
-        return centinela;
-    }
-    /***
-     * f(x)=n-(x*x)=0
-     * @param x
-     * @param n
-     * @return 
-     */
-    public static double f(double x, double n){
-      double centinela= n-Math.pow(x, 2);
-      return centinela;
-    }
-    
-    /***
-     * Calcula promedio
-     * @param a
-     * @param b 
-     */
-    public static double prom(double a, double b){
-        return a+b/2.0D;
-    }
+
     
     
  
