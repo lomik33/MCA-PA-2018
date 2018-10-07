@@ -19,7 +19,7 @@ public class Clase1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-   //     System.out.println(calcularDistancia(6,4,2,1));
+        System.out.println(calcularDistancia(1,1,3,3));
    // se pidio que en 100 pasos se generaran numeros entre -5 y 5
   }
     
